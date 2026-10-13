@@ -118,8 +118,8 @@ p { text-wrap: pretty; }
 .hero-body { padding-top: 140px; padding-bottom: clamp(36px, 6vw, 72px); }
 .hero .eyebrow { color: var(--glow); }
 h1 {
-  font-size: clamp(88px, 21vw, 300px); line-height: .82; letter-spacing: -.03em;
-  margin: 0 0 clamp(20px, 3vw, 36px) -.04em;
+  font-size: clamp(88px, 21vw, 300px); line-height: .9; letter-spacing: -.03em;
+  margin: 0 0 max(.14em, 24px) -.04em;
   text-shadow: 0 0 80px rgba(242, 180, 90, .35);
 }
 h1 .eyebrow { display: block; margin: 0 0 22px .3em; font-family: var(--body); line-height: 1.5; text-shadow: none; }
