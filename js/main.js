@@ -39,7 +39,7 @@
 
   function show(i) {
     index = (i + set.length) % set.length;
-    boxImg.src = set[index].src;
+    boxImg.src = set[index].dataset.full || set[index].src;
     boxImg.alt = set[index].alt;
   }
   document.querySelectorAll('[data-gallery]').forEach(function (group) {

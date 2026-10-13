@@ -110,7 +110,7 @@ p { text-wrap: pretty; }
   background:
     linear-gradient(90deg, rgba(28, 18, 12, .6) 0%, rgba(28, 18, 12, 0) 62%),
     linear-gradient(180deg, rgba(28, 18, 12, .62) 0%, rgba(28, 18, 12, .18) 34%, rgba(28, 18, 12, .82) 78%, var(--ember) 100%),
-    url('https://xn----7sbncxet5asce.xn--p1ai/cafe/21.jpg') center 38% / cover no-repeat;
+    url('../img/cafe/21.webp') center 38% / cover no-repeat;
   animation: settle 2.4s cubic-bezier(.2, .7, .2, 1) both;
 }
 @keyframes settle { from { transform: scale(1.07); opacity: .4; } to { transform: none; opacity: 1; } }
@@ -122,6 +122,7 @@ h1 {
   margin: 0 0 clamp(20px, 3vw, 36px) -.04em;
   text-shadow: 0 0 80px rgba(242, 180, 90, .35);
 }
+h1 .eyebrow { display: block; margin: 0 0 22px .3em; font-family: var(--body); line-height: 1.5; text-shadow: none; }
 .hero-lead { max-width: 34em; font-size: clamp(18px, 1.7vw, 22px); line-height: 1.5; color: rgba(245, 236, 221, .88); }
 
 .facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line-dark); }
